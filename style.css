@@ -1,0 +1,123 @@
+body {
+  background-color: #c6cbc9;
+  margin: 0;
+  font-family: "Amatic SC", cursive;
+}
+
+header {
+  background-color: #fef9f9;
+  height: 100px;
+  width: 100%;
+  margin-top: -20px;
+  padding: 20px 0;
+
+  .title-header {
+    text-align: center;
+  }
+
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+  }
+}
+
+.section-container {
+  position: relative;
+}
+
+.image-title {
+  position: absolute;
+  top: 10px;
+  left: 33%;
+  color: black;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.section-img {
+  max-height: 700px;
+  min-height: 300px;
+  width: 100%;
+}
+
+section {
+  text-align: center;
+}
+
+.img-ring {
+  width: -webkit-fill-available;
+  width: 100%;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 36px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:active {
+  font-weight: bold;
+  color: #c6cbc9;
+}
+
+input,
+select {
+  width: 78%;
+  height: 24px;
+}
+
+.large-input {
+  height: 90px;
+  width: 78%;
+}
+
+.flex-input-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.list-info {
+margin-top: 10%;
+}
+
+.list-info div{
+  margin-top: 10%;
+}
+
+
+@media (min-width: 768px) {
+
+  .img-ring {
+    height: 200px;
+  }
+
+  .list-info {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    height: 373px;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 767px){
+  .nav-list {
+    margin-inline-start: -36px;
+  }
+}
