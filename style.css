@@ -16,6 +16,8 @@ header {
   }
 
   .nav-list {
+    display: -webkit-flex;
+    display: -ms-flexbox;
     list-style: none;
     display: flex;
     gap: 16px;
@@ -116,7 +118,7 @@ margin-top: 10%;
   }
 }
 
-@media (max-width: 767px){
+@media (max-width: 1000px){
   .nav-list {
     margin-inline-start: -36px;
   }
